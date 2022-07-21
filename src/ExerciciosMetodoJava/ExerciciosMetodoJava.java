@@ -21,7 +21,7 @@ public class ExerciciosMetodoJava {
         System.out.println("Exercicio Emprestimo");
 
         Emprestimo.calcular(1545, 2);
-        Emprestimo.calcular(1545, 3);
+        Emprestimo.calcular(1545, Emprestimo.getTresParcelas());
         Emprestimo.calcular(1545, 4);
 
 
